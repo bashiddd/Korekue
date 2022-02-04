@@ -31,3 +31,5 @@
 /config/master.key
 
 /.env
+
+/app/controllers/home_controller.rb
