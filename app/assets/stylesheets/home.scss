@@ -13,10 +13,10 @@ header {
 }
 
 header h1 {
-    font-family: 'Dela Gothic One', cursive;
-    color: rgb(230, 103, 13);
+    font-family: 'Dela Gothic One', 'Carter One', cursive;
+    color: rgb(233, 112, 25);
     letter-spacing: .1em;
-    -webkit-text-stroke: 1px #8f6c4b;
+    -webkit-text-stroke: 1px  darken(rgb(233, 112, 25), 10%);
     margin-bottom: 5px;
 
 }
@@ -32,22 +32,34 @@ main {
 
 main h1 {
     margin-bottom: 100px;
+    padding-top: 30px;
+    line-height: 2.0;
 }
 
 .btn {
     display: inline-block;
     color: white;
     font-size: 40px;
-    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Dela Gothic One', 'Carter One', cursive;
     border-radius: 60px;
     text-decoration: none;
     padding: 70px 150px;
-    background-color: rgb(230, 103, 13);
+    background-color: rgb(233, 112, 25);
     cursor: pointer;
-    box-shadow: 0 10px 0 darken(rgb(230, 103, 13), 10%);
+    box-shadow: 0 10px 0 darken(rgb(233, 112, 25), 10%);
 }
 
 .btn:hover {
     box-shadow: none;
     transform: translateY(10px);
+}
+
+.result h1 {
+    margin-bottom: 20px;
+}
+
+.result h3 {
+    letter-spacing: 5px;
+    font-size: 35px;
+    font-family: 'Dela Gothic One', 'Carter One', cursive;
 }

@@ -1,3 +1,8 @@
-<h1><%= @korekue['name'] %></h1>
-<h2><%= @korekue['vicinity'] %></h2>
-<h2><%= link_to("もう一度コレクエ", "show") %></h2>
+<main>
+    <div class="result">
+        <h3>今日はコレクエ!!</h3>
+        <h1><%= @korekue['name'] %></h1>
+        <h2><%= "住所: #{@korekue['vicinity']}" %></h2>
+    </div>
+    <a href="show" class="btn">コレクエ</a>
+</main>
