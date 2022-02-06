@@ -24,3 +24,30 @@ header h1 {
 header h3 {
     margin-top: 0px;
 }
+
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+main h1 {
+    margin-bottom: 100px;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    font-family: 'Dela Gothic One', cursive;
+    border-radius: 60px;
+    text-decoration: none;
+    padding: 70px 150px;
+    background-color: rgb(230, 103, 13);
+    cursor: pointer;
+    box-shadow: 0 10px 0 darken(rgb(230, 103, 13), 10%);
+}
+
+.btn:hover {
+    box-shadow: none;
+    transform: translateY(10px);
+}
