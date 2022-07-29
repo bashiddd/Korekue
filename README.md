@@ -1,4 +1,5 @@
-# README
+# コレクエ
+![スクリーンショット (148)](https://user-images.githubusercontent.com/96585163/181755366-1870464e-bc02-449e-82ab-ee3581d5aa45.png)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
