@@ -10,4 +10,4 @@
 <img  height="350px" src="https://user-images.githubusercontent.com/96585163/181757481-ea683e59-4364-4d6d-b88f-a96cee3b3140.png" />
 
 # Technology Stack
-#### HTML<br>CSS<br>Ruby<br>Ruby on Rails<br>Google Maps Places API
+#### HTML<br>CSS<br>Ruby<br>Ruby on Rails<br>Google Maps Places API<br>Heroku
